@@ -51,6 +51,10 @@ function App() {
       <div className="container mt-3">
         <Routes>
           <Route
+            path="/restaurants"
+            element={<RestaurantsList restaurantsList={RestaurantsList} />}
+          />
+          <Route
             path="/"
             element={<RestaurantsList restaurantsList={RestaurantsList} />}
           />
@@ -58,14 +62,8 @@ function App() {
             path="/restaurants/:id/review"
             element={<AddReview user={user} />}
           />
-          <Route
-            path="/restaurants/:id"
-            element={<Restaurant user={user} />}
-          />
-          <Route
-            path="/login"
-            element={<Login login={login} />}
-          />
+          <Route path="/restaurants/:id" element={<Restaurant user={user} />} />
+          <Route path="/login" element={<Login login={login} />} />
         </Routes>
       </div>
     </div>
