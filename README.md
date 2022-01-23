@@ -8,4 +8,4 @@ This project is full-stack web app using the MERN stack. Restaurants Reviews Web
 *P.S. The code here will differ from the source code in the clip according to the new versions of the code.*
 
 ## Link to Web Application
-* [Restaurants Reviews](restaurant-reviews-acfyd.mongodbstitch.com/)
+* [Restaurants Reviews](https://restaurant-reviews-acfyd.mongodbstitch.com/)
